@@ -81,6 +81,7 @@ int getreadcount(void)
 
     ```C
     // sysfile.c
+    + extern int readcount;
     int
     sys_read(void)
     {
